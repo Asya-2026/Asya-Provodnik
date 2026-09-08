@@ -920,3 +920,12 @@ a { color: var(--color-primary-deep); }
     max-width: none;
   }
 }
+
+@media (max-width: 760px) {
+  .hero-visual {
+    outline: 2px solid red;   /* красная рамка для проверки */
+  }
+  .hero-photo-frame {
+    background: rgba(0,0,0,0.05);
+  }
+}
